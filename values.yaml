@@ -1,0 +1,13 @@
+###values.yaml###
+name: "nginx"
+replicaCount: 1
+
+image:
+  repository: wlffjaso-cicd
+  pullPolicy: Always
+  tag: v1.2
+
+service:
+  Type: NodePort
+  Port: 80
+  TargetPort: 80

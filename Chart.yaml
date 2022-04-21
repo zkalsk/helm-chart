@@ -1,0 +1,7 @@
+apiVersion: v2
+name: nginx
+description: A Helm chart for Kubernetes
+appVersion: "v1.2"
+type: application
+version: 1.2
+
