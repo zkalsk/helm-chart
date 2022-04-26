@@ -21,6 +21,8 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy}}
         ports:
         - containerPort: {{ .Values.service.TargetPort}}
+      imagePullSecrets:
+      - name: docker-registry-login
 ---
 apiVersion: v1
 kind: Service
