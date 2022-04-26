@@ -1,7 +1,7 @@
 name: nginx
 replicaCount: 1
 image:
-  repository: wlffjaso-cicd
+  repository: wlffjaso/test-cicd
   pullPolicy: Always
   tag: v1.3
 service:
